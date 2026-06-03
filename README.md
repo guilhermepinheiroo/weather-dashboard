@@ -1,16 +1,52 @@
-# React + Vite
+# 🌦️ Weath
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um dashboard meteorológico moderno desenvolvido com React, Vite, Tailwind CSS e OpenWeather API.
 
-Currently, two official plugins are available:
+O Weath permite consultar condições climáticas em tempo real, visualizar previsões futuras e acompanhar informações meteorológicas de forma simples, rápida e intuitiva.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Deploy
 
-## React Compiler
+Acesse a aplicação online:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+👉 https://weath-weather-dashboard.vercel.app/
 
-## Expanding the ESLint configuration
+## ✨ Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Pesquisa de clima por cidade
+* Temperatura atual
+* Sensação térmica
+* Umidade do ar
+* Velocidade do vento
+* Condição climática atual
+* Ícones dinâmicos conforme o clima
+* Previsão para os próximos dias
+* Interface moderna e responsiva
+* Tratamento de erros para cidades não encontradas
+* Indicador de carregamento durante as consultas
+
+## 🛠️ Tecnologias Utilizadas
+
+### Front-end
+
+* React
+* Vite
+* JavaScript
+* Tailwind CSS
+* Axios
+
+### API
+
+* OpenWeather API
+
+## 📂 Estrutura do Projeto
+
+```bash
+src/
+├── components/
+├── services/
+├── hooks/
+├── pages/
+├── utils/
+├── App.jsx
+└── main.jsx
+```
